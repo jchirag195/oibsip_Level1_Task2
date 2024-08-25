@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+:root {
+    --primary-color: #222;
+    --secondary-color: #fff;
+    --accent-color: #e44d26;
+    --font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.image-container {
+    margin: 1.5rem 0;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.bio-text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
+
+footer p {
+    color: var(--secondary-color);
+}
